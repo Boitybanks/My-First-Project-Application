@@ -24,7 +24,7 @@ function displayTemperature(response) {
   document.querySelector(
     "#current-temperature-value"
   ).innerHTML = `${temperature}`;
-  document.querySelector("#current-temperature-unit").innerHTML = `°F`;
+  document.querySelector("#current-temperature-unit").innerHTML = `°C`;
   document
     .querySelector("#current-temperature-icon")
     .setAttribute("src", weatherIcon);
