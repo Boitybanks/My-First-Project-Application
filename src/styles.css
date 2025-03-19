@@ -1,9 +1,14 @@
 body {
   background: #48a396;
   font-family: "Roboto", sans-serif;
-  background-image: url("/images/src/mountain.jpg");
-  background-size: 100px 100px;
-  animation: backgroundTransition 10s infinite alternate;
+  div {
+    background-image: url("./img src/mountain.jpg"),
+      url("./img srcpinkclounds.jpg"), url("/images/rainyglass.jpg");
+    background-position: 0 0, 0 0, 0 0;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    animation: backgroundTransition 10s infinite alternate;
+  }
 }
 
 a {
