@@ -2,8 +2,8 @@ body {
   background: #48a396;
   font-family: "Roboto", sans-serif;
   div {
-    background-image: url("./img src/mountain.jpg"),
-      url("./img srcpinkclounds.jpg"), url("/images/rainyglass.jpg");
+    background-image: url("images/img src/mountain.jpg"),
+      url("images/img src/rainyglass.jpg"), url("images/img src/pinkclouds.jpg");
     background-position: 0 0, 0 0, 0 0;
     background-repeat: no-repeat;
     background-size: 100px 100px;
