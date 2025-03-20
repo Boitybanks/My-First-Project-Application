@@ -17,7 +17,7 @@ function displayTemperature(response) {
   let country = response.data.country;
   let description = response.data.condition.description;
   let humidity =
-    response.data.humidity !== undefined ? response.data.humidity : "TBD 🪶";
+    response.data.humidity !== undefined ? response.data.humidity : "0🪶";
   let wind = Math.round(response.data.wind.speed);
   let weatherIcon = response.data.condition.icon_url;
 
