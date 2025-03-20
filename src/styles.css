@@ -33,6 +33,28 @@ body {
   }
 }
 
+#weather-forecast {
+  margin-top: 20px;
+}
+
+#Weather-forecast-day {
+  text-align: center;
+}
+#Weather-forecast-icon {
+  text-align: center;
+  font-size: 38px;
+}
+#weather-forecast-temperatures {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #f65282;
+  display: flex;
+}
+#Weather-forecast-temperature {
+  padding: 10px;
+}
+
 .weather-app {
   background: white;
   max-width: 600px;
@@ -117,6 +139,7 @@ a {
   color: black;
   margin-left: 75px;
 }
+
 footer {
   border-top: 1px solid #f9f7fe;
   text-align: center;
