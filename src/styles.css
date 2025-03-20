@@ -65,51 +65,61 @@ header {
   border-radius: 5px;
 }
 main {
-  padding: 30px 0;
+  padding: 35px 0;
 }
-.current-temperature {
-  font-size: 48px;
+a {
+  color: #885df1;
 }
+
 .current-weather {
   display: flex;
   justify-content: space-between;
 }
-.current-city {
+#current-city {
   font-size: 38px;
   font-weight: 900;
   margin: 0;
+  padding-bottom: 40px;
 }
-.current-details {
-  color: rgba(39, 33, 66, 0.4);
+#current-details {
+  padding: 10px 0;
+  color: rgba(4, 1, 16, 0.4);
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 28px;
+  margin-top: -12px;
 }
 .current-details strong {
   color: #f65282;
 }
 
-.current-temperature-icon {
+#current-temperature-icon {
+  display: flex;
   position: relative;
-  top: -8px;
-  font-size: 40px;
-  margin-right: 10px;
+  top: -5px;
+  margin-left: -80px;
+  margin-top: 15px;
+  padding: 10px;
 }
-.current-temperature-value {
+#current-temperature-value {
   display: block;
-  font-weight: bold;
-  font-size: 88px;
-  line-height: 88px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 1px;
+  margin-bottom: 35px;
+  color: black;
 }
-.current-temperature-unit {
-  margin-top: 6px;
+#current-temperature-unit {
+  margin-top: 15px;
   font-size: 28px;
   position: relative;
-  top: -38px;
+  top: -70px;
+  color: black;
+  margin-left: 75px;
 }
 footer {
   border-top: 1px solid #f9f7fe;
   text-align: center;
   padding-top: 15px;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(0, 0, 0, 0.6);
 }

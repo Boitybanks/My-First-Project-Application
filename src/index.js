@@ -16,7 +16,8 @@ function displayTemperature(response) {
   let city = response.data.city;
   let country = response.data.country;
   let description = response.data.condition.description;
-  let humidity = response.data.humidity;
+  let humidity =
+    response.data.humidity !== undefined ? response.data.humidity : "TBD 🪶";
   let wind = Math.round(response.data.wind.speed);
   let weatherIcon = response.data.condition.icon_url;
 
@@ -29,9 +30,10 @@ function displayTemperature(response) {
     .querySelector("#current-temperature-icon")
     .setAttribute("src", weatherIcon);
   document.querySelector("#current-date").innerHTML = formatDate(new Date());
+
   document.querySelector(
     "#current-details"
-  ).innerHTML = `${description} <br /> Humidity: <strong>${humidity}%</strong>, Wind: <strong>${wind} mph</strong>`;
+  ).innerHTML = `${description} <br /> Humidity: <strong>${humidity}%</strong>, Wind: <strong>${wind} km/h</strong>`;
 }
 
 function formatDate(date) {
