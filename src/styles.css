@@ -2,10 +2,35 @@ body {
   background: #dadcdc;
   font-family: "Roboto", sans-serif;
   color: #885df1;
-  background-image: url("glass.jpg");
+  background-image: url("glass.jpg"), url("1img.jpg"), url("2img.jpg"),
+    url("3img.jpg"), url("4img.jpg"), url("5img.jpg"), url("6img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  animation: backgroundTransition 30s infinite;
+}
+@keyframes backgroundTransition {
+  0% {
+    background-image: url("glass.jpg");
+  }
+  16.6% {
+    background-image: url("1img.jpg");
+  }
+  33.3% {
+    background-image: url("2img.jpg");
+  }
+  50% {
+    background-image: url("3img.jpg");
+  }
+  66.6% {
+    background-image: url("4img.jpg");
+  }
+  83.3% {
+    background-image: url("5img.jpg");
+  }
+  100% {
+    background-image: url("6img.jpg");
+  }
 }
 
 .weather-app {
