@@ -2,6 +2,10 @@ body {
   background: #dadcdc;
   font-family: "Roboto", sans-serif;
   color: #885df1;
+  background-image: url("glass.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .weather-app {
