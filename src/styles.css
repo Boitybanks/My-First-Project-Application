@@ -1,17 +1,6 @@
 body {
-  background: #48a396;
+  background: #dadcdc;
   font-family: "Roboto", sans-serif;
-  div {
-    background-image: url("images/imgsrc/mountain.jpg"),
-      url("images/imgsrc/rainyglass.jpg"), url("images/imgsrc/pinkclouds.jpg");
-    background-position: 0 0, 0 0, 0 0;
-    background-repeat: no-repeat;
-    background-size: 100px 100px;
-    animation: backgroundTransition 10s infinite alternate;
-  }
-}
-
-a {
   color: #885df1;
 }
 
